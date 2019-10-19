@@ -12,6 +12,11 @@ namespace Test
         {
             Console.WriteLine("Hello World");
         }
-        //new method goes here
+        
+        //new method goes here        
+        static void PrintName(string name)
+        {
+            Console.WriteLine(name);
+        }
     }
 }

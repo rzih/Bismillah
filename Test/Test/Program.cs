@@ -12,5 +12,10 @@ namespace Test
         {
             Console.WriteLine("Hello World");
         }
+        
+        static void PrintName(string name)
+        {
+            Console.WriteLine(name);
+        }
     }
 }
